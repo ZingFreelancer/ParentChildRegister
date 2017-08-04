@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Utility.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gender.h" />
