@@ -49,14 +49,7 @@ public:
 
 	std::string getGender() const
 	{
-		switch (m_gender)
-		{
-			case Female:	return "female";
-			case Male:		return "male";
-			case Unassigned: return "not assigned";
-			default: return "unknown";
-		}
-		return "not assigned";
+		return getGenderString(m_gender);
 	}
 
 	//Functions
